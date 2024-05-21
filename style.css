@@ -180,8 +180,35 @@ a{
     display: flex;
     align-items: center;
     justify-content: center;
+    flex-direction: column;
     width: 100%;
     margin-top: 28px;
+}
+
+.footer .data{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.footer .design{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.footer .design hr{
+    width: 90%;
+}
+.footer .design p{
+    width: 100%;
+    text-align: center;
+    margin-top: 18px;
+}
+.footer .design a{
+    color: #fff;
 }
 
 
@@ -389,11 +416,13 @@ a{
     }
 
     .footer{
-        flex-direction: column;
-        justify-content: flex-start;
         padding: 80px 20px;
         padding-right: 0px;
         width: 100%;
+       }
+       .footer .data{
+        flex-direction: column;
+        justify-content: flex-start;
        }
        .footer .first{
         width: 100%;
