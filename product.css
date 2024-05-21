@@ -50,6 +50,15 @@
     .section-p1 {
         padding: 40px 40px;
     }
+    
+    #header{
+        padding-left: 20px;
+        padding-right:20px; 
+    }
+
+    #header .logo{
+        font-size: 20px;
+    }
 
     #navbar ul {
         display: flex;

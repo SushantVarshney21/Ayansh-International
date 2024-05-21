@@ -241,6 +241,34 @@ a{
 }
 
 
+#chat{
+    /* position: absolute; */
+    right: 55px;
+    bottom: 12px;
+    position: fixed;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+}
+
+#chat i{
+    background-color: #fff;
+    color: #000;
+    padding: 20px;
+    border-radius: 12px;
+    cursor: pointer;
+}
+
+#chat img{
+    background-color: #fff;
+    width: 3.5rem;
+    margin-top: 20px;
+    border-radius: 12px;
+    cursor: pointer;
+
+}
+
 
 
 
@@ -384,5 +412,10 @@ a{
        .footer h4, h3,h2,p,li{
         text-align: left;
        }
-   
+       
+       #chat{
+        right: 18px;
+        bottom: 30px;
+        position: fixed;
+       }
 }
