@@ -1,11 +1,12 @@
 
 .contact{
-    padding: 50px 80px;
+    padding: 50px 20px;
   }
   .contact .top a{
     color: #000;
   }
 .contact .top{
+    width: 100%;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -17,7 +18,7 @@
     box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
     background-color: white;
     padding: 20px;
-    margin: 20px;
+    margin: 10px;
     cursor: pointer;
     transition: 0.2s;
     display: flex;
@@ -27,7 +28,7 @@
 }
 
 .contact .top .second{
-    /* width: 20%; */
+    width: 40%;
     /* height: 170px; */
     box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
     background-color: white;
@@ -90,7 +91,7 @@
 }
 
 .contact .bottom .second{
-    /* width: 40%; */
+    width: 50%;
     /* height: 300px; */
     box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
     background-color: white;
@@ -200,8 +201,8 @@
         padding: 80px 20px;
     }
 
-    .contact .top .first{
-        width: 80%;
+    .contact .top .first, .contact .top .second{
+        width: 90%;
     }
 
     .contact .bottom{
