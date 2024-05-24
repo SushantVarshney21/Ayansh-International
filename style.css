@@ -19,7 +19,7 @@ a{
 }
 
 .logo{
-    width: 70px;
+    width: 40px;
 }
 
 #header {
@@ -348,7 +348,7 @@ a{
     }
 
     #header .logo{
-        width: 50px;
+        width: 30px;
         }
 
     #navbar ul {
