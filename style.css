@@ -19,7 +19,7 @@ a{
 }
 
 .logo{
-    width: 70px;
+    width: 90px;
 }
 
 #header {
@@ -27,7 +27,7 @@ a{
     align-items: center;
     justify-content: space-between;
     padding: 20px 80px;
-    background: #e3e6f3;
+    background: #fff;
     box-shadow: 0 5px 5px rgb(0, 0, 0, 0.06);
     z-index: 999;
     position: fixed;
@@ -331,16 +331,18 @@ a{
 
 #chat i{
     /* background-color: #fff; */
-    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 27px 55px, rgba(0, 0, 0, 0.12) 0px -12px 20px, rgba(0, 0, 0, 0.12) 0px 2px 6px, rgba(0, 0, 0, 0.17) 0px 6px 6px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    background-color: #fff;
     color: #000;
     padding: 20px;
     border-radius: 12px;
     cursor: pointer;
+    margin-bottom: 12px;
 }
 
 #chat img{
-    /* background-color: #fff; */
-    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    background-color: #fff;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 27px 55px, rgba(0, 0, 0, 0.12) 0px -12px 20px, rgba(0, 0, 0, 0.12) 0px 2px 6px, rgba(0, 0, 0, 0.17) 0px 6px 6px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
     width: 3.5rem;
     margin-top: 20px;
     border-radius: 12px;
@@ -401,8 +403,8 @@ a{
         padding-right:20px; 
     }
 
-    #header .logo{
-        width: 45px;
+ .logo{
+        width: 70px;
         }
 
     #navbar ul {
@@ -460,8 +462,13 @@ a{
     #hero h2{
         text-align: center;
     }
+    #product h2{
+        font-size: 30px;
+        font-weight: bold;
+        text-align: center;
+    }
     #presence{
-        padding: 80px 20px;
+        padding: 80px 0px 0px 0px;
     }
     #presence h2{
         text-align: center;
